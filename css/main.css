@@ -630,6 +630,10 @@ input[type=button] {
       line-height: 1.285;
     }
   
+    footer .social-icons p {
+      margin: 10px;
+    }
+    
     footer .copyright {
       width: 100%;
     }
@@ -662,6 +666,10 @@ input[type=button] {
     .contact-content h4 {
       font-size: 1.5em;
     }
+
+    footer .social-icons p {
+      margin: 10px;
+    }
   
     /* ==========================================================================
      FAQ Page
@@ -683,6 +691,10 @@ input[type=button] {
     .faq p {
       font-size: .875em;
       line-height: 1.125;
+    }
+
+    footer .social-icons p {
+      margin: 10px;
     }
   }
   
@@ -754,6 +766,9 @@ input[type=button] {
     footer h4 {
       font-size: 1.875em;
     }
+    footer .social-icons p {
+      margin: 10px;
+    }
   
     /* ==========================================================================
     About Page
@@ -768,6 +783,10 @@ input[type=button] {
     .contact-content h4 {
       font-size: 1.875em;
     }
+
+    footer .social-icons p {
+      margin: 10px;
+    }
   
     /* ==========================================================================
     FAQ Page
@@ -781,6 +800,10 @@ input[type=button] {
     .faq p {
       font-size: 1.125em;
       line-height: 1;
+    }
+
+    footer .social-icons p {
+      margin: 10px;
     }
   }
 
