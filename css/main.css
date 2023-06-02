@@ -353,8 +353,9 @@ input[type=button] {
 
 .mission {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   background-color: #527158;
+  padding: 0 10px;
 }
 
 .contact-section {
@@ -633,7 +634,7 @@ input[type=button] {
     footer .social-icons p {
       margin: 10px;
     }
-    
+
     footer .copyright {
       width: 100%;
     }
