@@ -95,10 +95,16 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
 }
 
 ul,
-ol {}
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 a {
   color: #e2e3ed;
@@ -109,21 +115,19 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
-  color: #e2e3ed;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
-  font-weight: 300;
-  color: #e2e3ed;
+  font-weight: 500;
+  margin: 20px 0;
 }
 
 p {
   font-size: 0.875em;
   line-height: 18px;
-  color: #e2e3ed;
 }
 
 img {}
@@ -132,14 +136,12 @@ figure {}
 
 address {
   font-style: normal;
-  color: #e2e3ed;
 }
 
 
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
-  color: #e2e3ed;
 }
 
 /*---- Header & Footer Styles ----*/
@@ -168,12 +170,19 @@ header .content-wrapper {
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 h1,
@@ -212,7 +221,6 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #527158;
 }
 
 footer .copyright {
@@ -228,17 +236,45 @@ footer .copyright {
   justify-content: center;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Aside */
 
 aside {
   display: flex;
   justify-content: center;
-  background: #527158;
+  background-color: #527158;
 }
 
-.form,
-.form-description {
-  background: #527158;
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -265,6 +301,7 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -273,18 +310,17 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  background: #2a423a;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
-  background: #2a423a;
+  line-height: 1;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
-  background: #2a423a;
 }
 
 /* ==========================================================================
@@ -294,18 +330,17 @@ aside {
 .mission {
   display: flex;
   justify-content: center;
-  background: #527158;
+  background-color: #527158;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
-  background: #2a423a;
+  background-color: #2a423a;
 }
 
 .contact-content p {
   margin: 0;
-  background: #2a423a;
 }
 
 /* ==========================================================================
@@ -315,7 +350,7 @@ aside {
 .faq {
   display: flex;
   justify-content: center;
-  background: #527158;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -324,17 +359,19 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   margin: 50px 0 0 0;
-  background: #527158;
 }
 
 .faq h2 {
   margin-bottom: 40px;
-  background-color: #527158;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
-  background: #527158;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
